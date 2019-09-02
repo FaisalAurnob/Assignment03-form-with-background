@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+header{
+    background-color: #484545;
+}
+nav{
+
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px 15px;
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 5px solid rgba(51,153,153,0);
+}
+.hov:hover{
+    color: #339999;
+    border-bottom: 2px solid rgba(51,153,153,1);
+}
+nav ul li a img{
+    max-width: 100%;
+    width: 100px;
+}
+section{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) border-box, url(https://images3.alphacoders.com/705/thumb-1920-705633.jpg) no-repeat, center, center;
+    background-size: cover;
+    height: 100vh;
+}
+.continer{
+    width: 100%;
+    overflow: hidden;
+}
+.text{
+    width: 50%;
+    text-align: center;
+    /* height: 90%; */
+    margin-top: 250px;
+    float: left;
+}
+
+.text h2{
+    margin: auto;
+    display: block;
+    padding: 10px;
+    color: white;
+}
+.mark{
+    color: green;
+}
+.text p{
+    text-align: center;
+    color: white;
+    padding: 0px;
+}
+.text ul{
+
+/* margin-left: 294px; */
+
+/* text-align: center; */
+
+list-style: none;
+
+padding: 10px;
+}
+.text ul li{
+
+padding: 10px;
+}
+.text ul li a{
+
+color: white;
+
+/* margin-top: 1500px; */
+
+display: block;
+
+/* margin-top: -126px; */
+}
+.text ul li p{
+    text-align: center;
+    float: left;
+}
+.text ul li i{
+    text-align: center;
+    float: left;
+}
+.one{
+    
+width: 31%;
+    
+display: inline-block;
+    
+vertical-align: middle;
+    
+/* text-align: center; */
+}
+.form{
+    width: 50%;
+    height: 90%;
+    float: left;
+}
+.form input{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5px;
+    border: 1px solid #024006;
+    padding: 12px 5px;
+}
+.form-box{
+    padding: 10px;
+    width: 400px;
+    background-color: #5eb75e;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    border-radius: 10px;
+    transform: translate(-50%,-50%);
+}
+.form-box h2{
+    color: white;
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.form-box p{
+    margin-bottom: 15px;
+    color: white;
+    text-align: center;
+}
+.btn{
+    background-color: green;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #024006;
+    cursor: pointer;
+    border-radius: 10px;
+}
